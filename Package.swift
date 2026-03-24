@@ -7,7 +7,7 @@ let package = Package(
     products: [
         .library(
             name: "BTImagePicker",
-            targets: ["BTImagePickerWrapper", "CommonResources"]
+            targets: ["BTImagePickerWrapper", "BTImagePickerCommonResources"]
         ),
     ],
     dependencies: [
@@ -33,14 +33,14 @@ let package = Package(
         .binaryTarget(
             name: "BaitianImagePicker",
             url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/BTImagePicker/2.0.0/BaitianImagePicker.xcframework.zip",
-            checksum: "0a86f99c985b2caf634e427a17a62da24419eb67f60655fe71dda66b0e5baf8c"
+            checksum: "1bface67544007eef672ad9308d6b1b687601c9e55d69ebd12b58c88101ce342"
         ),
         
         // ========== Bundle Resources ==========
         .target(
-            name: "CommonResources",
+            name: "BTImagePickerCommonResources",
             dependencies: [],
-            path: "CommonResources",
+            path: "BTImagePickerCommonResources",
             exclude: ["Resources"],
             sources: ["Placeholder.swift"],
             resources: [.copy("Resources")],
