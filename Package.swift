@@ -32,8 +32,8 @@ let package = Package(
         // ========== Binary Frameworks ==========
         .binaryTarget(
             name: "BaitianImagePicker",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/BTImagePicker/2.0.0/BaitianImagePicker.xcframework.zip",
-            checksum: "1bface67544007eef672ad9308d6b1b687601c9e55d69ebd12b58c88101ce342"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/BTImagePicker/2.0.1/BaitianImagePicker.xcframework.zip",
+            checksum: "449c092722a4ea2d5af3ce76f8fbf8dcd7d73bc7d23e0eb0891d78abf5509a6b"
         ),
         
         // ========== Bundle Resources ==========
