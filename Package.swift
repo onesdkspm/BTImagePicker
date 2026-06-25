@@ -18,7 +18,6 @@ let package = Package(
         .target(
             name: "BTImagePickerWrapper",
             dependencies: [
-                .byName(name: "BaitianImagePicker"),
                 .product(name: "UnityBridge", package: "UnityBridge"),
             ],
             path: "BTImagePickerWrapper",
@@ -30,11 +29,6 @@ let package = Package(
         ),
         
         // ========== Binary Frameworks ==========
-        .binaryTarget(
-            name: "BaitianImagePicker",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/BTImagePicker/2.0.1-dev-1407381/BaitianImagePicker.xcframework.zip",
-            checksum: "e4d0ab55da376de100534e1a9e1b11e1cc249abf642d49a5df57141354c6de30"
-        ),
         
         // ========== Bundle Resources ==========
         .target(
