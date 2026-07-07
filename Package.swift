@@ -11,7 +11,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/onesdkspm/UnityBridge.git", from: "2.0.0"),
+        .package(url: "https://github.com/onesdkspm/BTSDKUIKitCore.git", from: "1.0.0"),
     ],
     targets: [
         // ========== Wrapper Target（统一管理系统依赖）==========
@@ -19,7 +19,7 @@ let package = Package(
             name: "BTImagePickerWrapper",
             dependencies: [
                 .byName(name: "BaitianImagePicker"),
-                .product(name: "UnityBridge", package: "UnityBridge"),
+                .product(name: "BTSDKUIKitCore", package: "BTSDKUIKitCore"),
             ],
             path: "BTImagePickerWrapper",
             linkerSettings: [
@@ -32,8 +32,8 @@ let package = Package(
         // ========== Binary Frameworks ==========
         .binaryTarget(
             name: "BaitianImagePicker",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/BTImagePicker/2.0.1/BaitianImagePicker.xcframework.zip",
-            checksum: "449c092722a4ea2d5af3ce76f8fbf8dcd7d73bc7d23e0eb0891d78abf5509a6b"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/BTImagePicker/2.0.2/BaitianImagePicker.xcframework.zip",
+            checksum: "d77391673db11fbebf2b66fa19e2afb2e5d3516ef64bf6e50bd104fcc7a43bed"
         ),
         
         // ========== Bundle Resources ==========
