@@ -11,7 +11,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/onesdkspm/BTSDKUIKitCore.git", from: "1.0.0"),
+        .package(url: "https://github.com/onesdkspm/BTSDKUIKitCore.git", from: "2.0.3"),
     ],
     targets: [
         // ========== Wrapper Target（统一管理系统依赖）==========
@@ -32,8 +32,8 @@ let package = Package(
         // ========== Binary Frameworks ==========
         .binaryTarget(
             name: "BaitianImagePicker",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/BTImagePicker/2.0.2/BaitianImagePicker.xcframework.zip",
-            checksum: "d77391673db11fbebf2b66fa19e2afb2e5d3516ef64bf6e50bd104fcc7a43bed"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/BTImagePicker/2.0.3/BaitianImagePicker.xcframework.zip",
+            checksum: "322409f7b1ca95dfd32b485e56b7c03033b9d3c76618d875dd3709e666a3f461"
         ),
         
         // ========== Bundle Resources ==========
